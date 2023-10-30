@@ -1,0 +1,57 @@
+article {
+  display: flex;  
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: .6em;
+  flex: 1;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 12px;
+  border: 0;
+  padding: 0rem 1.3rem;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 3.2ch;
+  font-size: 14px;
+  transition: 200ms;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button.following {
+  padding: 0;
+  background-color: #ff00002f;
+  color: #ff0000;
+  border: red solid .1em;
+  width: 40%;
+}
+
+.stopFollowing {
+  display: none;
+}
+
+button.following:hover .stopFollowing {
+  display: block;
+}
+
+button.following:hover span:first-child {
+  display: none;
+}
+
+img {
+  width: 40px;
+  border-radius: 50%;
+}
