@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  gap: 1rem;
+  width: 90vw;
+  margin-bottom: 20px;
+}
+
+.input-data, .btn-submit {
+  --main-color: #579ddb;
+  padding: .8em 1em;
+  border-radius: 8px;
+  border: none;
+  
+  font-size: 16px;
+  outline: none;
+}
+
+.input-data {
+  flex: 10;
+  box-shadow: 2px 2px 10px 1px #579ddb66;
+}
+
+.input-data:focus {
+  outline: solid var(--main-color);
+}
+
+.btn-submit {
+  flex: 1;
+  font-weight: bold;
+  background-color: var(--main-color)
+}
+
+.shoes {
+  padding: 1.3em;
+  border-radius: 10px;
+  transition: 300ms ease;
+  font-size: 16px;
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.shoes:hover {
+  background-color: #434343c7;
+}
