@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Labrador Retriever",
+    "history": "El Labrador Retriever es originario de Terranova, Canadá, donde eran utilizados como perros de trabajo por los pescadores. Son conocidos por ser amigables y leales.",
+    "imgURL": "https://images.pexels.com/photos/1001976/pexels-photo-1001976.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  },
+  {
+    "name": "Pastor Alemán",
+    "history": "El Pastor Alemán se desarrolló en Alemania como un perro de pastoreo. Son inteligentes y se utilizan en diversas tareas, incluyendo la policía y el ejército.",
+    "imgURL": "https://t2.ea.ltmcdn.com/es/posts/3/2/9/curiosidades_del_pastor_aleman_23923_600_square.jpg"
+  },
+  {
+    "name": "Golden Retriever",
+    "history": "El Golden Retriever se originó en Escocia y se crían principalmente como perros de caza. Son conocidos por su amabilidad y disposición agradecida.",
+    "imgURL": "https://www.lucypetproducts.com/wp-content/uploads/2020/01/Golden4.jpg.webp"
+  },
+  {
+    "name": "Bulldog",
+    "history": "El Bulldog es una raza británica conocida por su apariencia distintiva y su history en la cría de toros. Son perros fuertes y leales.",
+    "imgURL": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1667586499.jpg?crop=0.668xw:1.00xh;0.148xw,0&resize=980:*"
+  }
+]

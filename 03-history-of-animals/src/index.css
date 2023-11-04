@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+  --height-nav: 90px
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}

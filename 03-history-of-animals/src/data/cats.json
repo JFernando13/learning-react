@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Siamés",
+    "history": "Los gatos siameses son originarios de Tailandia, donde eran considerados sagrados. Fueron traídos a Europa en el siglo XIX y se convirtieron en una raza popular debido a su apariencia distintiva y personalidad cariñosa.",
+    "imgURL": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/04/siames-scaled.jpg?fit=1200%2C800&quality=50&strip=all&ssl=1"
+  },
+  {
+    "name": "Persa",
+    "history": "Los gatos persas se originaron en Persia (ahora Irán) y fueron llevados a Europa en el siglo XVII. Son conocidos por su pelaje largo y su temperamento tranquilo.",
+    "imgURL": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/gato_persa.jpg"
+  },
+  {
+    "name": "Maine Coon",
+    "history": "El Maine Coon es una raza estadounidense, considerada como una de las más grandes. Su origen es incierto, pero se cree que descienden de gatos a bordo de barcos de exploradores europeos en el siglo XIX.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6qezRmkb-zm8_Z6nq4W98p2dLZrbBSS0dA&usqp=CAU"
+  },
+  {
+    "name": "Bengalí",
+    "history": "Los gatos bengalíes son una raza relativamente nueva, criada a partir de cruces con leopardos asiáticos. Tienen un aspecto salvaje y una personalidad activa.",
+    "imgURL": "https://www.bunko.pet/__export/1665246413302/sites/debate/img/2021/11/24/gato_bengali_x2x_crop1637794261225.jpeg_423682103.jpeg"
+  }
+]
