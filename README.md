@@ -6,6 +6,7 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 ### Basic Hooks
 1. Follow User -> useState ✅
 0. Change Background -> useEffect ✅
+0. Follow Cursor -> useEffect + useState ✅
 0. useEffect (call to API)
 
 ### Common Hooks
