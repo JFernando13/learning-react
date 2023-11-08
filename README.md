@@ -7,7 +7,8 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 1. Follow User -> useState ✅
 0. Change Background -> useEffect ✅
 0. Follow Cursor -> useEffect + useState ✅
-0. useEffect (call to API)
+0. Cafacts -> useEffect (call to API) 🟡
+0. Call to Notion Data
 
 ### Common Hooks
 1. Counter -> useRef
