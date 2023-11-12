@@ -1,9 +1,9 @@
+import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { createUser, resetUser } from '../../context/states/user'
 import { PrivateRoutes } from '../../models/routes.model'
 import { getCharacter } from "../../services/auth.service"
-import { useEffect } from 'react'
 
 export function Login() {
   const dispatch = useDispatch()
