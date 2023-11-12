@@ -1,0 +1,42 @@
+.container-users {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  gap: 1rem;
+}
+
+.user {
+  --main-color: #3acacc;
+  border-bottom: solid 2px #3acacc;
+  padding: .5rem 0;
+  padding-right: 1rem;
+  border-radius: 0 0 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  color: #cfd4d4
+}
+
+.btn-delete {
+  border-radius: 25%;
+  border: none;
+  color: #3acacc;
+  background: transparent;
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in-out;
+}
+
+.btn-delete:hover {
+  color: black;
+  background-color: #3acacc;
+}
+
+.btn-delete > svg {
+  width: 25px;
+}
