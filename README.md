@@ -4,18 +4,18 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 ## Proyectos
 
 ### Basic Hooks
-1. Follow User -> useState ✅
-0. Change Background -> useEffect 🟡
-0. Follow Cursor -> useEffect ✅
-0. Cafacts -> useEffect 🟡
-0. Twitter Users -> useEffect ✅
-0. Call to Notion Data -> useEffect
+1. Follow User ✅
+0. Change Background 🔵
+0. Follow Cursor ✅
+0. Cafacts 🔵
+0. Twitter Users 🔵
+0. HTML/CSS References
 
 ### Common Hooks
 1. Counter -> useRef
 0. Cross Out Items -> useRef
 0. Drag and Drop -> useRef
-0. Movie Search -> useRef + useCallback 🟡
+0. Movie Search -> useRef + useCallback 🔵 🟡
 0. Filter List -> useMemo + useCallback
 0. Calculator -> useMemo + useCallback
 0. Find the Same -> useMemo + useCallback
@@ -25,8 +25,8 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. Online Shop -> useId + useRef + useContext + useReducer 
 
 ### Routers
-1. History Animals -> React Router DOM 🟡
-7. Private Routes -> React Router DOM ❌
+1. History Animals -> React Router DOM 🔵
+7. Private Routes -> React Router DOM
 8. Tanstack Router
 
 ### State Managment

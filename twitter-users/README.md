@@ -10,6 +10,4 @@ En esta aplicacion de React consiste en renderizar una lista de usuarios los cua
 - Renderiza una lista de usuarios
 - Boton para poder eliminar un usuario
 
-## Estado del proyecto: 🟡
-### Motivos:
-- Mejora de estilos
+## Estado del proyecto: 🔵
