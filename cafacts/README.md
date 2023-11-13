@@ -9,3 +9,6 @@ Recuperar la primera palabra del hecho
 Muestra una imagen de un gato con la primera palabra.
 
 https://cataas.com/cat/says/hola?size=50&color=red&json=true
+
+TODOS:
+1. Terminar estilos
