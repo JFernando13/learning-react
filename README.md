@@ -5,17 +5,17 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 
 ### Basic Hooks
 1. Follow User -> useState ✅
-0. Change Background -> useEffect ✅
+0. Change Background -> useEffect 🟡
 0. Follow Cursor -> useEffect ✅
 0. Cafacts -> useEffect 🟡
-0. Twitter Users -> useEffect 
-0. Movie Search -> useEffect
+0. Twitter Users -> useEffect ✅
 0. Call to Notion Data -> useEffect
 
 ### Common Hooks
 1. Counter -> useRef
 0. Cross Out Items -> useRef
 0. Drag and Drop -> useRef
+0. Movie Search -> useRef + useCallback 🟡
 0. Filter List -> useMemo + useCallback
 0. Calculator -> useMemo + useCallback
 0. Find the Same -> useMemo + useCallback

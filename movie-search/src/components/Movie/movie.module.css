@@ -1,0 +1,17 @@
+.container-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(200px, 20vw), 1fr));
+  gap: 2rem;
+}
+.movie {
+  border-radius: .3rem;
+  box-shadow: 0 0 10px #4d4d4d;
+  color: #fff;
+}
+.img {
+  border-radius: inherit;
+  width: 100%;
+}
+.info {
+  padding: 1rem;
+}
