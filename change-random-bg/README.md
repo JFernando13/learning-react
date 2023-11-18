@@ -1,6 +1,16 @@
-Applicacion la cual cambia el bacground de la pagina al darle click a un boton.
+# Descripcion del projecto
+Este proyecto se enfoca en la práctica y comprensión del uso de useEffect en React, implementando una funcionalidad la cual cambia el fondo de la página de manera aleatoria. El objetivo principal es comprender cómo el hook useEffect puede ser utilizado para realizar acciones después y antes de que el componente ha sido renderizado.
 
-TODOS:
-- Mejorar los estilos
+# Conceptos practicados:
+- useEffect
 
-NOTA: Posiblemente este projecto se elimine debido a lo basico que puede llegar a ser.
+# Tecnologias utilizadas
+- React
+- JavaScript
+
+# Funcionalidades
+- Generar de manera aletoria un color. ✅
+- Cambiar el color cada vez que se le de click a un boton. ✅
+- El color del boton tiene que combinar con el color del fondo. ❌
+
+## Estado del proyecto: 🔵 

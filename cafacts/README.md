@@ -1,14 +1,22 @@
-Facts Random: https://catfact.ninja/fact
+# Descripcion del projecto
+Este projecto se enfoca en la integración de dos APIs (https://catfact.ninja/fact, https://cataas.com/cat/says/hello) para mostrar por pantalla curiosidades sobre gatos junto con imágenes que diga la primera palabra de la curiosidad.
 
-Imagen random: https://cataas.com/cat/says/hello
+# Conceptos practicados
+- Hooks personalizados
+- Fetching
+- useEffect concatenado
+- Renderizado condicional
 
-Recupera un hecho aleatorio de gatos de la primera API
+# Tecnologias utilizadas
+- React
+- Typescript
 
-Recuperar la primera palabra del hecho
+# Funcionalidades
+- Traer las curiosidades de la API https://catfact.ninja/fact ✅
+- Recuperar la primera palabra de la curiosidad ✅
+- Manejar el loading de los datos ✅
+- Mostrar la imagen con la palabra recuperada ✅
+- Integrar un boton para mostrar nuevas curiosidades ✅
+- Integracion de estilos ❌ 
 
-Muestra una imagen de un gato con la primera palabra.
-
-https://cataas.com/cat/says/hola?size=50&color=red&json=true
-
-TODOS:
-1. Terminar estilos
+# Estado del projecto 🔵

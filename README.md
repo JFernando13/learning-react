@@ -9,11 +9,9 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. Follow Cursor ✅
 0. Cafacts 🔵
 0. Twitter Users 🔵
-0. HTML/CSS References
 
 ### Common Hooks
 1. Counter -> useRef
-0. Cross Out Items -> useRef
 0. Drag and Drop -> useRef
 0. Movie Search -> useRef + useCallback 🔵 🟡
 0. Filter List -> useMemo + useCallback
@@ -26,8 +24,8 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 
 ### Routers
 1. History Animals -> React Router DOM 🔵
-7. Private Routes -> React Router DOM
-8. Tanstack Router
+0. Private Routes -> React Router DOM 🔵
+0. Tanstack Router
 
 ### State Managment
 1. Zustand
@@ -35,9 +33,13 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 
 ### Api Calls
 1. React Query
-11. SWR
+0. SWR
 
 ### Forms
 1. Your TOP 10 -> unController Form 🟡
 0. Controller Form
 0. React Hook Form
+
+### Databases
+1. Notion + Express
+0. MongoDB + Prisma + Express
