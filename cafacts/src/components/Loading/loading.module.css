@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.loading {
+  --size: 50px;
+  --border-size: 8px;
+  --main-color: #1F599F;
+
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+
+  border: var(--border-size) transparent solid;
+  border-top: var(--border-size) var(--main-color) solid;
+  border-bottom: var(--border-size) var(--main-color) solid;
+
+  animation: slice infinite linear 1000ms;
+}
+
+@keyframes slice {
+  100% { transform: rotate(360deg)}
+}
