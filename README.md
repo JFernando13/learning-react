@@ -11,12 +11,10 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. Twitter Users ✅
 
 ### Common Hooks
-1. Counter -> useRef
-0. Drag and Drop -> useRef
-0. Movie Search -> useRef + useCallback 🔵 🟡
+1. Kanban 🔵 🟡
+0. Movie Search 🔵 🟡
 0. Filter List -> useMemo + useCallback
 0. Calculator -> useMemo + useCallback
-0. Find the Same -> useMemo + useCallback
 0. Manage my Cash -> useReducer
 0. Change Language -> useContext
 0. Admin Habits -> useReducer + useContext
