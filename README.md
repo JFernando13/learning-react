@@ -13,12 +13,9 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 ### Common Hooks
 1. Kanban 🔵 🟡
 0. Movie Search 🔵 🟡
-0. Filter List -> useMemo + useCallback
-0. Calculator -> useMemo + useCallback
-0. Manage my Cash -> useReducer
-0. Change Language -> useContext
-0. Admin Habits -> useReducer + useContext
-0. Online Shop -> useId + useRef + useContext + useReducer 
+0. Cash Managment -> useReducer
+0. Change Language ✅
+0. Online Shop 🔵 
 
 ### Routers
 1. History Animals -> React Router DOM 🔵
