@@ -1,9 +1,9 @@
-export interface ProductsType {
-  filteredProducts: ProductType[]
+export interface FilterProductsType {
+  filteredProducts: OriginalProductType[]
   maxPrice: number
 }
 
-export interface ProductType {
+export interface OriginalProductType {
   id: number,
   title: string,
   description: string,
@@ -15,6 +15,9 @@ export interface ProductType {
   category: string,
   thumbnail: string,
   images: string[]
+}
+
+export interface ProductType extends OriginalProductType {
   quantity: number
 }
 

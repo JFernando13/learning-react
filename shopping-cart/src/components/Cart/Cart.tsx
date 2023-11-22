@@ -3,6 +3,7 @@ import { CartContext } from "../../context/CartContext"
 import style from "../../styles/cart.module.css"
 import { CartIcon } from "../icons/CartIcon"
 import { CloseIcon } from "../icons/CloseIcon"
+import { DeleteIcon } from "../icons/DeleteIcon"
 
 export function Cart() {
   const [isVisibleCart, setIsVisibleCart] = useState(false)
@@ -11,6 +12,10 @@ export function Cart() {
   const handleVisible = () => {
     window.document.body.classList.toggle("cart-show")
     setIsVisibleCart(!isVisibleCart)
+  }
+
+  const managePropagation = (e: React.SyntheticEvent<HTMLElement>) => {
+    e.stopPropagation()
   }
 
   const totalQuantity = useMemo(() => {
@@ -30,19 +35,24 @@ export function Cart() {
       </button>
 
       <div className={`${style.layoutCart} ${isVisibleCart && style.showCart}`} onClick={handleVisible}>
-        <section className={`${style.cart} ${isVisibleCart && style.showCart}`}>
-          <button onClick={handleVisible} className={`${style.btn} ${style.btnClose}`}><CloseIcon /></button>
-          {
-            cart.map(cartProduct => (
-              <article key={cartProduct.id}>
-                <h1>{cartProduct.title}</h1>
-                <strong>{cartProduct.quantity}</strong>
-                <button onClick={() => handlerCart.removeOne(cartProduct.id)}>Delete One Product</button>
-              </article>
-            ))
-          }
-
-          <button onClick={() => handlerCart.removeAll()} className={`${style.btn}`}>Delete All Cart</button>
+        <section className={`${style.cart} ${isVisibleCart && style.showCart}`} onClick={managePropagation}>
+          <button onClick={handleVisible} className={`btn ${style.btnClose} ${style.btn}`}><CloseIcon /></button>
+          <main>
+            <section className={style.cartList}>
+              {
+                cart.length > 0 ? cart.map(cartProduct => (
+                  <article key={cartProduct.id} className={style.product}>
+                    <div className={style.infoCartProduct}>
+                      <h1>{cartProduct.title}</h1>
+                      <strong>Cantidad: {cartProduct.quantity}</strong>
+                    </div>
+                    <button onClick={() => handlerCart.removeOne(cartProduct.id)} className={style.btnDeleteOne}><DeleteIcon /></button>
+                  </article>
+                )) : <p>No hay productos en el carro</p>
+              }
+            </section>
+            <button onClick={() => handlerCart.removeAll()} className={`${style.btnDeleteAll}`}>Delete All Cart</button>
+          </main>
         </section>
       </div>
     </>

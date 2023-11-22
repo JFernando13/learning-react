@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { products as originalProducts } from '../mocks/products.json';
-import { FilterType, ProductsType } from "../models/products";
+import { FilterType, FilterProductsType } from "../models/products";
 import { getCategories, getFilterProducts } from "../utils/filter";
 
-const emptyProducts: ProductsType = {
+const emptyProducts: FilterProductsType = {
   filteredProducts: [],
   maxPrice: 0,
 }

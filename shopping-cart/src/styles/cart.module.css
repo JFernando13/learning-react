@@ -5,8 +5,10 @@
   cursor: pointer;
   padding: .5rem;
   border-radius: 50%;
+  width: 50px;
   transition: .3s ease;
 }
+
 .btn:hover {
   background-color: color-mix(in srgb, var(--second-color) 100%, rgb(224, 224, 224) 70%);
 }
@@ -51,17 +53,85 @@
   height: 100vh;
   transition: .5s;
   transform: translateX(100%);
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  gap: .5rem;
 
   padding: 1rem;
 }
+
 .showCart {
   transform: translate(0);
   visibility: visible;
 }
 
+.cart > main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartList {
+  display: grid;
+  grid-auto-rows: max-content;
+  gap: 2rem;
+}
+
+.infoCartProduct {
+  font-size: 22px;
+
+  strong {
+    font-size: 16px;
+    color: #454545ee;
+    font-style: italic;
+  }
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnDeleteOne {
+  background-color: #454545;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--main-color);
+
+  display: flex;
+  place-content: center;
+  place-items: center;
+  border: none;
+  cursor: pointer;
+
+  transition: .3s ease;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
 .btnClose {
-  background-color: var(--second-color);
+  background-color: var(--second-color) !important;
   display: flex;
   place-items: center;
   box-shadow: 0 0 20px 0 #4545459e;
+}
+
+.btnDeleteAll {
+  border: none;
+  width: 100%;
+  background-color: var(--second-color);
+  color: var(--main-color);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 16px;
+  transition: .3s ease;
+
+  &:hover {
+    background-color: #454545ff;
+  }
 }

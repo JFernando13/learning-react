@@ -1,10 +1,10 @@
 import { createContext, useContext } from "react";
 import { useProducts } from "../hooks/useProducts";
-import { ProductsType } from "../models/products";
+import { FilterProductsType } from "../models/products";
 import { FilterContext } from "./FilterContext";
 
 interface ProductContextType {
-  products: ProductsType,
+  products: FilterProductsType,
   categories: string[]
 }
 

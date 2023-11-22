@@ -1,11 +1,11 @@
 import { createContext, useReducer } from "react";
-import { ProductType } from "../models/products";
+import { OriginalProductType, ProductType } from "../models/products";
 import { CartActionName, cartReducer } from "../reducer/cartReducer";
 
 interface CartContextType {
   cart: ProductType[]
   handlerCart: {
-    add: (product: ProductType) => void
+    add: (product: OriginalProductType) => void
     removeOne: (id: number) => void
     removeAll: () => void
   }
@@ -20,7 +20,7 @@ interface Props {
 export function CartContextProvider({ children }: Props) {
   const [cart, dispatch] = useReducer(cartReducer, [] as ProductType[])
 
-  const add = (product: ProductType) => {
+  const add = (product: OriginalProductType) => {
     dispatch({ type: CartActionName.addToCart, payload: product })
   }
 

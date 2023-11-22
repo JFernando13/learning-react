@@ -1,6 +1,8 @@
+import { OriginalProductType } from "./products"
+
 export type State = ProductType[]
 
-export type Payload = ProductType | number | undefined
+export type Payload = OriginalProductType | number | undefined
 
 export enum CartActionName {
   addToCart = "addToCart",

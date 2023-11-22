@@ -1,10 +1,10 @@
 import { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
-import { ProductType } from '../../models/products'
+import { OriginalProductType } from '../../models/products'
 import style from '../../styles/product.module.css'
 
 interface Props {
-  product: ProductType
+  product: OriginalProductType
 }
 
 export function Product({ product }: Props) {
@@ -23,7 +23,7 @@ export function Product({ product }: Props) {
           </div>
           <p>{product.description}</p>
         </header>
-          <button className={style.btnAddToCart} onClick={() => handlerCart.add(product)}>Add</button>
+        <button className={style.btnAddToCart} onClick={() => handlerCart.add(product)}>Add</button>
       </main>
     </article>
   )
