@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: rgb(255, 255, 255);
+  --second-color: #171717;
+  color-scheme: dark;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #2f2f2f;
+  padding: 3rem 5rem;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+:root main > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.cart-show {
+  overflow: hidden;
+}

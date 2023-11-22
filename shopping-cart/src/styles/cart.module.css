@@ -1,0 +1,67 @@
+.btn {
+  border: none;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: .5rem;
+  border-radius: 50%;
+  transition: .3s ease;
+}
+.btn:hover {
+  background-color: color-mix(in srgb, var(--second-color) 100%, rgb(224, 224, 224) 70%);
+}
+
+.btnOpenCart > span {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 16px;
+  background-color: var(--main-color);
+  border-radius: 12px;
+  color: var(--second-color);
+
+  width: min(20px, 100%);
+  height: min(20px, 100%);
+  display: flex;
+  place-items: center;
+  place-content: center;
+
+  padding: .85rem;
+
+}
+
+.layoutCart {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.138);
+  visibility: hidden;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+}
+
+.cart {
+  background-color: var(--main-color);
+  position: absolute;
+  right: 0;
+  color: var(--second-color);
+  width: 50%;
+  height: 100vh;
+  transition: .5s;
+  transform: translateX(100%);
+
+  padding: 1rem;
+}
+.showCart {
+  transform: translate(0);
+  visibility: visible;
+}
+
+.btnClose {
+  background-color: var(--second-color);
+  display: flex;
+  place-items: center;
+  box-shadow: 0 0 20px 0 #4545459e;
+}

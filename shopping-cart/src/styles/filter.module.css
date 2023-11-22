@@ -1,0 +1,19 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input {
+  display: block;
+}
+
+.categories {
+  display: block;
+  background-color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
