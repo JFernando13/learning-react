@@ -18,6 +18,7 @@ export function useMovies(sort: boolean) {
       const movies = await fetchMovies(search)
       setMovies(movies)
       previousSearch.current = search
+
     } catch (err) {
       if (err instanceof Error) {
         setError(err.message)
@@ -31,6 +32,5 @@ export function useMovies(sort: boolean) {
     ? [...movies].sort((a, b) => a.title.localeCompare(b.title))
     : movies
 
-    console.log('render')
   return { movies: sortedMovies, getMovies, error, loading }
 }

@@ -1,4 +1,5 @@
 import { type Movie as MovieType } from '../../models/movies'
+import { Loading } from '../Loading/Loading'
 import { Movie } from './Movie'
 import style from './movie.module.css'
 
@@ -13,7 +14,7 @@ export function Movies({ movies, loading, error }: Props) {
 
   if (!movies.length && !loading) return <h1 style={{ textAlign: 'center' }}>Ingrese un texto para mostrar peliculas</h1>
 
-  if (loading) return <h1>LOADING...</h1>
+  if (loading) return <Loading />
 
   return (
     <main className={style["container-movies"]}>

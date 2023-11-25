@@ -1,0 +1,24 @@
+.loading {
+  --main-color: #54AEC7;
+  --size: 10vw;
+  --border: .5rem solid;
+  width: var(--size);
+  height: var(--size);
+  
+  border: var(--border) transparent;
+  border-top: var(--border) var(--main-color);
+  border-bottom: var(--border) var(--main-color);
+  background-color: transparent;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  animation: slip infinite .2s linear;
+}
+
+@keyframes slip {
+  to {
+    transform: rotate(190deg);
+  }
+}

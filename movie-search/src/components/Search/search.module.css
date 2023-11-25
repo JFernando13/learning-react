@@ -19,7 +19,8 @@
   background-color: inherit;
   color: #fff;
   outline: none;
-  border: solid 4px #000;
+  border: solid 4px #54AEC7;
+  color: #54AEC7;
 }
 
 .sort {

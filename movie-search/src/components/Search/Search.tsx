@@ -19,7 +19,7 @@ export function Search({ getMovies, changeOrder, sort, movies }: Props) {
       <form className={style.form} onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Marvel..."
+          placeholder="Ingrese el nombre de la pelicula."
           className={style["search-input"]}
           value={search}
           onChange={handleChange}
