@@ -15,7 +15,7 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. Movie Search 🔵 🟡
 0. Cash Managment -> useReducer
 0. Change Language ✅
-0. Online Shop 🔵 
+0. Online Shop ✅ 
 
 ### Routers
 1. History Animals -> React Router DOM 🔵
