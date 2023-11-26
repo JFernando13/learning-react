@@ -1,0 +1,55 @@
+.total-movement {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  width: 45%;
+  flex: 1;
+
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+
+  padding: 2rem;
+
+  background-color: var(--color-light);
+  border: solid 8px var(--color-dark);
+  color: var(--color-dark);
+  transition: .2s ease-in;
+  transform-origin: right bottom;
+
+  box-shadow: 0 0 10px 1px var(--color-dark);
+
+  &:hover {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+  }
+
+  & .title {
+    font-size: clamp(1em, 2cqw, 1.2em);
+    font-weight: normal;
+    font-style: italic;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  & .amount {
+    font-size: clamp(1.4em, 3.2cqw, 1.8em);
+    font-weight: bolder;
+    overflow-x: scroll;
+    text-overflow: clip;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.profits {
+  --color-dark: #2C5530;
+  --color-light: #6B8B5B;
+}
+
+.expenses {
+  --color-dark: #933636;
+  --color-light: #B05F5F;
+}

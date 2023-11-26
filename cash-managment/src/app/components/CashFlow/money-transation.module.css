@@ -1,0 +1,42 @@
+.money-transation {
+  display: grid;
+  gap: 1rem;
+  border-radius: 12px;
+  border: solid;
+  padding: 1rem 0;
+
+  .title {
+    text-align: center;
+  }
+}
+
+.money-transation-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.movement {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border: solid;
+  border-radius: 12px;
+}
+
+
+.movement-header {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+
+  img {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 3rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
