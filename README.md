@@ -13,27 +13,25 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 ### Common Hooks
 1. Kanban 🔵 🟡
 0. Movie Search ✅
-0. Cash Managment -> useReducer
+0. Cash Managment 🔵
 0. Change Language ✅
 0. Online Shop ✅ 
 
+### Forms
+0. Contact App 🔵
+
 ### Routers
 1. History Animals -> React Router DOM 🔵
-0. Private Routes -> React Router DOM 🔵
+0. Login -> React Router DOM
 0. Tanstack Router
 
-### State Managment
-1. Zustand
-0. Redux Toolkit
-
 ### Api Calls
-1. React Query
+1. Sistema de Comentarios -> React Query
 0. SWR
 
-### Forms
-1. Your TOP 10 -> unController Form 🟡
-0. Controller Form
-0. React Hook Form
+### State Managment
+1. CRUD -> Redux Toolkit
+0. JavaScript Quiz -> Zustand
 
 ### Databases
 1. Notion + Express
