@@ -1,0 +1,16 @@
+.table {
+  width: 100%;
+}
+
+.data {
+  text-align: center;
+}
+
+.rows:nth-child(even) {
+  transition: .3s ease-in-out;
+  background-color: #444;
+}
+
+.property {
+  cursor: pointer;
+}

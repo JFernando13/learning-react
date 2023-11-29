@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  .filter {
+    border-radius: 8px;
+    padding-inline: 1rem;
+    border: none;
+    font-size: 14px;
+
+    &:placeholder-shown {
+      text-align: center;
+    }
+  }
+}
