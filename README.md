@@ -21,7 +21,7 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. Contact App 🔵
 
 ### Routers
-1. History Animals -> React Router DOM 🔵
+1. History Animals 🔵
 0. Login -> React Router DOM
 0. Tanstack Router
 
@@ -30,8 +30,8 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 0. SWR
 
 ### State Managment
-1. CRUD -> Redux Toolkit
-0. JavaScript Quiz -> Zustand
+1. JavaScript Quiz ✅
+0. CRUD -> Redux Toolkit
 
 ### Databases
 1. Notion + Express
