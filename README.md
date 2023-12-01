@@ -22,17 +22,9 @@ Repositorio para aprender react en base a projectos, llendo desde lo mas basico 
 
 ### Routers
 1. History Animals 🔵
-0. Login -> React Router DOM
-0. Tanstack Router
 
 ### Api Calls
 1. User Hub ✅
-0. SWR
 
 ### State Managment
 1. JavaScript Quiz ✅
-0. CRUD -> Redux Toolkit
-
-### Databases
-1. Notion + Express
-0. MongoDB + Prisma + Express
